@@ -1,0 +1,23 @@
+site_name: Documentation Technique — SISR
+site_description: Procédures, fiches pratiques et documentations réseau & système.
+site_author: Ton Nom
+
+theme:
+  name: material
+  language: fr
+  palette:
+    scheme: slate # Mode sombre
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Accueil: index.md
+  - Systèmes:
+      - Active Directory: systemes/active-directory.md
+  - Réseaux:
+      - VLANs Cisco: reseaux/vlans.md
