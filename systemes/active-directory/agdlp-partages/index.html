@@ -6,35 +6,35 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Portfolio & fiches de procédures techniques BTS SIO SISR.">
+        <meta name="description" content="Fiches de procédures techniques.">
       
       
-        <meta name="author" content="28twz">
+        <meta name="author" content="Enzo RABET">
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../utilisateurs-ou/">
       
       
-        <link rel="next" href="../../reseaux/vlans/">
+        <link rel="next" href="../gpo-securite-bureau/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Active Directory - Documentation Technique — SISR</title>
+        <title>AGDLP & Partages NTFS - Documentation Technique - BTS SIO SISR</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +53,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#procedure-active-directory" class="md-skip">
+        <a href="#procedure-application-de-la-methode-agdlp-et-droits-ntfs" class="md-skip">
           Aller au contenu
         </a>
       
@@ -90,7 +90,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="../.." title="Documentation Technique — SISR" class="md-header__button md-logo" aria-label="Documentation Technique — SISR" data-md-component="logo">
+    <a href="../../.." title="Documentation Technique - BTS SIO SISR" class="md-header__button md-logo" aria-label="Documentation Technique - BTS SIO SISR" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -104,13 +104,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Documentation Technique — SISR
+            Documentation Technique - BTS SIO SISR
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Active Directory
+              AGDLP & Partages NTFS
             
           </span>
         </div>
@@ -185,7 +185,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -207,8 +207,17 @@
   
     
     
+      
+  
+  
+  
+    
+  
+  
+    
+    
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../utilisateurs-ou/" class="md-tabs__link">
           
   
   
@@ -216,6 +225,9 @@
 
         </a>
       </li>
+    
+  
+
     
   
 
@@ -228,7 +240,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../reseaux/vlans/" class="md-tabs__link">
+        <a href="../../../reseaux/vlans/" class="md-tabs__link">
           
   
   
@@ -248,7 +260,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../cyber/firewall/" class="md-tabs__link">
+        <a href="../../../cyber/firewall/" class="md-tabs__link">
           
   
   
@@ -282,13 +294,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Documentation Technique — SISR" class="md-nav__button md-logo" aria-label="Documentation Technique — SISR" data-md-component="logo">
+    <a href="../../.." title="Documentation Technique - BTS SIO SISR" class="md-nav__button md-logo" aria-label="Documentation Technique - BTS SIO SISR" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Documentation Technique — SISR
+    Documentation Technique - BTS SIO SISR
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -300,7 +312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -385,16 +397,28 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+    
+    
+    
+    
       
       
         
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+          
+          
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+            
   
   
   <span class="md-ellipsis">
@@ -408,7 +432,309 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Active Directory
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilisateurs-ou/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilisateurs & OU
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AGDLP & Partages NTFS
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AGDLP & Partages NTFS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-principe-de-la-chaine-agdlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Principe de la chaîne AGDLP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-etape-1-creation-des-groupes-dans-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Étape 1 : Création des groupes dans Active Directory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-etape-2-creation-des-repertoires-et-partage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Étape 2 : Création des répertoires et partage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-etape-3-application-des-permissions-ntfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Étape 3 : Application des permissions NTFS
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gpo-securite-bureau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPO - Sécurité & Bureau
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gpo-lecteurs-redirection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPO - Lecteurs & Redirection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../delegation-administration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Délégation d'Administration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sous-domaines-approbations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sous-Domaines & Approbations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../securisation-laps-pso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LAPS & PSO (Sécurité)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -481,7 +807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reseaux/vlans/" class="md-nav__link">
+      <a href="../../../reseaux/vlans/" class="md-nav__link">
         
   
   
@@ -568,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cyber/firewall/" class="md-nav__link">
+      <a href="../../../cyber/firewall/" class="md-nav__link">
         
   
   
@@ -616,6 +942,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-principe-de-la-chaine-agdlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Principe de la chaîne AGDLP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-etape-1-creation-des-groupes-dans-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Étape 1 : Création des groupes dans Active Directory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-etape-2-creation-des-repertoires-et-partage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Étape 2 : Création des répertoires et partage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-etape-3-application-des-permissions-ntfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Étape 3 : Application des permissions NTFS
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -631,7 +1009,42 @@
 
 
 
-<h1 id="procedure-active-directory">Procédure Active Directory</h1>
+<h1 id="procedure-application-de-la-methode-agdlp-et-droits-ntfs">Procédure : Application de la méthode AGDLP et droits NTFS</h1>
+<h2 id="1-principe-de-la-chaine-agdlp">1. Principe de la chaîne AGDLP</h2>
+<ul>
+<li><strong>A</strong> (Accounts) : Compte Utilisateur</li>
+<li><strong>G</strong> (Global Groups) : Groupe Global représentant la fonction métier / le service</li>
+<li><strong>DL</strong> (Domain Local Groups) : Groupe de Domaine Local représentant l'accès à la ressource</li>
+<li><strong>P</strong> (Permissions) : Autorisations NTFS / Partage sur le dossier</li>
+</ul>
+<h2 id="2-etape-1-creation-des-groupes-dans-active-directory">2. Étape 1 : Création des groupes dans Active Directory</h2>
+<ol>
+<li><strong>Groupes Globaux (GG)</strong> :</li>
+<li>Dans chaque OU de service, créer un groupe global : <code>GG_&lt;SERVICE&gt;</code> (ex: <code>GG_PRODUCTION</code>).</li>
+<li>Ajouter les utilisateurs du service dans leur groupe global respectif.</li>
+<li><strong>Groupes de Domaine Local (GDL)</strong> :</li>
+<li>Créer les groupes d'accès aux ressources :<ul>
+<li><code>GDL_PARTAGE_RW</code> (Modifications / Écriture)</li>
+<li><code>GDL_PARTAGE_RO</code> (Lecture seule)</li>
+</ul>
+</li>
+<li>Imbriquer le Groupe Global dans le Groupe de Domaine Local souhaité.</li>
+</ol>
+<h2 id="3-etape-2-creation-des-repertoires-et-partage">3. Étape 2 : Création des répertoires et partage</h2>
+<ol>
+<li>Créer la structure sur le volume du serveur :</li>
+<li><code>D:\Home</code> (Dossiers personnels)</li>
+<li><code>D:\Services</code> (Dossiers partagés de service)</li>
+<li>Partager les dossiers racine <code>Home$</code> et <code>Services$</code> en donnant le contrôle total au niveau du partage à <strong>Tout le monde</strong> ou <strong>Utilisateurs authentifiés</strong> (le filtrage se fait en NTFS).</li>
+</ol>
+<h2 id="4-etape-3-application-des-permissions-ntfs">4. Étape 3 : Application des permissions NTFS</h2>
+<ol>
+<li>Faire un clic droit sur le dossier cible (ex: <code>D:\Services\Production</code>) -&gt; <strong>Propriétés</strong> -&gt; Onglet <strong>Sécurité</strong> -&gt; <strong>Avancé</strong>.</li>
+<li>Désactiver l'héritage si nécessaire.</li>
+<li>Ajouter les permissions pour les groupes de domaine local :</li>
+<li>Pour <code>GDL_PARTAGE_RW</code> : Accorder <strong>Lecture &amp; Exécution</strong>, <strong>Affichage du contenu</strong>, <strong>Lecture</strong>, <strong>Écriture</strong>.</li>
+<li>Pour <code>GDL_PARTAGE_RO</code> : Accorder <strong>Lecture &amp; Exécution</strong>, <strong>Affichage du contenu</strong>, <strong>Lecture</strong>.</li>
+</ol>
 
 
 
@@ -681,10 +1094,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
